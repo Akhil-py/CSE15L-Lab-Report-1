@@ -25,6 +25,8 @@ Once the installation is complete you can now open Visual Studio Code, and you s
 
 ![image](VSC opened.jpg)
 
+You have now installed Visual Studio Code!
+
 
 ## Establishing a remote connection using ieng6
 
