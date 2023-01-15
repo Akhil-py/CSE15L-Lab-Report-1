@@ -19,7 +19,9 @@ Next, run the .exe installer and follow the steps shown.
 
 ![image](VSC installer.png)
 
+
 Once the installation is complete you can now open Visual Studio Code, and you should see a screen similar to this:
+
 
 ![image](VSC opened.jpg)
 
