@@ -28,7 +28,7 @@ You have now installed Visual Studio Code!
 
 ## Establishing a remote connection using ieng6
 
-If this is the first time using your CSE 15L account, lookup your account at [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) and reset your password to activate your account. You will use this password to login to the remote server. (Warning: Your tritonlink password will also be reset)
+If this is the first time using your CSE 15L account, lookup your account at [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) and reset your password to activate your account. You will use this password to login to the remote server.
 
 Before leaving this page, note the last 3 letters of your CSE 15L account ID. You will need this in the future.
 
@@ -65,6 +65,20 @@ Great! Your terminal is now connected to a computer in the CSE basement! Any com
 
 You can now run commands on the remote computer. Try it out. Here are some examples.
 
-![image](https://user-images.githubusercontent.com/61783850/212567776-2150190d-d3e4-49a5-9fa7-6898575445e8.png)
+![image](https://user-images.githubusercontent.com/61783850/214445194-6a12ff71-516c-4e39-954c-dae3a1507dd4.png)
+
+`pwd` shows you what your current/working directory is. I ran this on the first line in the image above, and it shows that I'm in the home directory `/home/linux/ieng6/cs15lwi23/cs15lwi23afv`.
+
+`ls` is used to list all the files and directories inside the current directory.
+
+Here's another command I ran: `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`. This is known as the concatenate command. It reads data from the hello.txt file and outputs it in the terminal.
+Next I ran `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`, which copied the hello.txt file from the cs15lwi23/public directory into my home directory (cs15lwi23/cs15lwi23afv).
+
+`cd` is used to change directories. When I ran `cd perl5`, it opened up the perl5 directory. You can see that this worked when the current path was output once I ran the `pwd` command (/home/linux/ieng6/cs15lwi23/cs15lwi23afv/perl5).
+You can run `cd ..` to go to the previous directory.
+`cd ~` can be used to return to your home directory.
+
+Next I opened the wavelet directory and ran the command `ls -lat`. This lists all the files in the working directory along with details including read/write permissions, its path, date and time modified, etc.
 
 Also try running some commands on your local computer. To close the remote connection, type `exit` in the terminal.
+Run simillar commands to the ones shown above in your local directory.
