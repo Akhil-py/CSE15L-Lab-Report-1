@@ -8,7 +8,7 @@ Welcome to CSE 15L! This is a short tutorial on how to get started with this lab
 
 ## Installing Visual Studio Code
 
-First head to https://code.visualstudio.com/download.
+First head to [https://code.visualstudio.com/download](https://code.visualstudio.com/download).
 Here you will find different installations for Visual Studio Code for different operating systems (Windows, macOS, Ubuntu, etc.) 
 
 ![image](Download VSC.png)
@@ -28,13 +28,13 @@ You have now installed Visual Studio Code!
 
 ## Establishing a remote connection using ieng6
 
-If this is the first time using your CSE 15L account, lookup your account at !https://sdacs.ucsd.edu/~icc/index.php and reset your password to activate your account. You will use this password to login to the remote server. (Warning: Your tritonlink password will also be reset)
+If this is the first time using your CSE 15L account, lookup your account at [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) and reset your password to activate your account. You will use this password to login to the remote server. (Warning: Your tritonlink password will also be reset)
 
 Before leaving this page, note the last 3 letters of your CSE 15L account ID. You will need this in the future.
 
 ![image](https://user-images.githubusercontent.com/61783850/212568657-09ae65b8-adf9-4530-9dd1-8e0825a355c4.png)
 
-Install Git at https://gitforwindows.org/, run the .exe installer, and follow the instructions you see on the window. Once you have successfully downloaded and installed git, open Visual Studio Code and hold Crtl + \` to open the terminal.
+Install Git at [https://gitforwindows.org/](https://gitforwindows.org/), run the .exe installer, and follow the instructions you see on the window. Once you have successfully downloaded and installed git, open Visual Studio Code and hold Crtl + \` to open the terminal.
 
 ![image](https://user-images.githubusercontent.com/61783850/212559746-a0f429a9-3f07-4dc0-8d86-5611bd528dc0.png)
 
